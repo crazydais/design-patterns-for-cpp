@@ -8,6 +8,7 @@ ChicagoPizzaStore::ChicagoPizzaStore()
 
 ChicagoPizzaStore::~ChicagoPizzaStore()
 {
+	delete this->pizza;
 }
 
 Pizza* ChicagoPizzaStore::createPizza(std::string arg_pizzaType)

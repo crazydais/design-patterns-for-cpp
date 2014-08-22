@@ -15,4 +15,7 @@ ChicagoStyleCheesePizza::ChicagoStyleCheesePizza(PizzaIngredientFactory* arg_ing
 
 ChicagoStyleCheesePizza::~ChicagoStyleCheesePizza()
 {
+	delete this->dough;
+	delete this->sauce;
+	delete this->cheese;
 }

@@ -8,6 +8,6 @@ public:
 	FrozenClams();
 	~FrozenClams();
 
-	Ingredient* FrozenClams::createIngredient();
+	Ingredient* createIngredient();
 };
 

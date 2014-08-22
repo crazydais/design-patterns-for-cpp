@@ -13,7 +13,9 @@ NYStyleCheesePizza::NYStyleCheesePizza(PizzaIngredientFactory *arg_ingredientFac
 
 NYStyleCheesePizza::~NYStyleCheesePizza()
 {
-	std::cout << "Destroying " << this->getName() << std::endl;
+	delete this->dough;
+	delete this->sauce;
+	delete this->cheese;
 }
 
 

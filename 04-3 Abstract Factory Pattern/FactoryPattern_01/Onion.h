@@ -8,6 +8,6 @@ public:
 	Onion();
 	~Onion();
 
-	Ingredient* Onion::createIngredient();
+	Ingredient* createIngredient();
 };
 

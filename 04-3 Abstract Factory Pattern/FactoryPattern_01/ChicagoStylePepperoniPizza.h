@@ -3,8 +3,7 @@
 #include "Pizza.h"
 #include "PizzaIngredientFactory.h"
 
-class ChicagoStylePepperoniPizza :
-	public Pizza
+class ChicagoStylePepperoniPizza : public Pizza
 {
 public:
 	ChicagoStylePepperoniPizza(PizzaIngredientFactory*);

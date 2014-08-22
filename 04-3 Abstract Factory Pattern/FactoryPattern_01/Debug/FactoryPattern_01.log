@@ -1,11 +1,42 @@
-﻿Build started 22/08/2014 09:56:30.
-     1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Abstract Factory Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
+﻿Build started 22/08/2014 15:38:46.
+     1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FactoryPattern_01.vcxproj, FactoryPattern_02.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChicagoPizzaIngredientFactory.cpp ChicagoPizzaStore.cpp ChicagoStyleCheesePizza.cpp ChicagoStyleClamPizza.cpp ChicagoStylePepperoniPizza.cpp ChicagoStyleVeggiePizza.cpp FreshClams.cpp FrozenClams.cpp Garlic.cpp MarinaraSauce.cpp MozzarellaCheese.cpp Mushroom.cpp NYPizzaIngredientFactroy.cpp NYPizzaStore.cpp NYStyleCheesePizza.cpp NYStyleClamPizza.cpp NYStylePepperoniPizza.cpp NYStyleVeggiePizza.cpp Onion.cpp Peppers.cpp PlumTomatoSauce.cpp ReggianoCheese.cpp SlicedPepperoni.cpp ThickCrustDough.cpp ThinCrustDough.cpp Veggie.cpp main.cpp
+         ChicagoPizzaIngredientFactory.cpp
+         Generating Code...
+         Compiling...
          main.cpp
+         Veggie.cpp
+         ThinCrustDough.cpp
+         ThickCrustDough.cpp
+         SlicedPepperoni.cpp
+         ReggianoCheese.cpp
+         PlumTomatoSauce.cpp
+         Peppers.cpp
+         Onion.cpp
+         NYStyleVeggiePizza.cpp
+         NYStylePepperoniPizza.cpp
+         NYStyleClamPizza.cpp
+         NYStyleCheesePizza.cpp
+         NYPizzaStore.cpp
+         NYPizzaIngredientFactroy.cpp
+         Mushroom.cpp
+         MozzarellaCheese.cpp
+         MarinaraSauce.cpp
+         Garlic.cpp
+         FrozenClams.cpp
+         Generating Code...
+         Compiling...
+         FreshClams.cpp
+         ChicagoStyleVeggiePizza.cpp
+         ChicagoStylePepperoniPizza.cpp
+         ChicagoStyleClamPizza.cpp
+         ChicagoStyleCheesePizza.cpp
+         ChicagoPizzaStore.cpp
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Abstract Factory Pattern\Debug\AbstractFactoryPattern.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Abstract Factory Pattern\Debug\AbstractFactoryPattern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Abstract Factory Pattern\Debug\AbstractFactoryPattern.lib" /MACHINE:X86 Debug\ChicagoPizzaIngredientFactory.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\Debug\AbstractFactoryPattern.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\Debug\AbstractFactoryPattern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\Debug\AbstractFactoryPattern.lib" /MACHINE:X86 Debug\ChicagoPizzaIngredientFactory.obj
          Debug\ChicagoPizzaStore.obj
          Debug\ChicagoStyleCheesePizza.obj
          Debug\ChicagoStyleClamPizza.obj
@@ -14,7 +45,6 @@
          Debug\FreshClams.obj
          Debug\FrozenClams.obj
          Debug\Garlic.obj
-         Debug\Ingredient.obj
          Debug\main.obj
          Debug\MarinaraSauce.obj
          Debug\MozzarellaCheese.obj
@@ -27,18 +57,15 @@
          Debug\NYStyleVeggiePizza.obj
          Debug\Onion.obj
          Debug\Peppers.obj
-         Debug\Pizza.obj
-         Debug\PizzaIngredientFactory.obj
-         Debug\PizzaStore.obj
          Debug\PlumTomatoSauce.obj
          Debug\ReggianoCheese.obj
          Debug\SlicedPepperoni.obj
          Debug\ThickCrustDough.obj
          Debug\ThinCrustDough.obj
          Debug\Veggie.obj
-         FactoryPattern_01.vcxproj -> C:\Users\DNolan\Docs\Programming\Aspire Projects\Abstract Factory Pattern\Debug\AbstractFactoryPattern.exe
-     1>Done Building Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Abstract Factory Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" (Build target(s)).
+         FactoryPattern_01.vcxproj -> C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\Debug\AbstractFactoryPattern.exe
+     1>Done Building Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.93
+Time Elapsed 00:00:11.67

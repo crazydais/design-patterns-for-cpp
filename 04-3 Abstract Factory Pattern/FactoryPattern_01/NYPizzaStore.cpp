@@ -4,9 +4,9 @@ NYPizzaStore::NYPizzaStore()
 {
 }
 
-
 NYPizzaStore::~NYPizzaStore()
 {
+	delete this->pizza;
 }
 
 Pizza* NYPizzaStore::createPizza(std::string arg_pizzaType)

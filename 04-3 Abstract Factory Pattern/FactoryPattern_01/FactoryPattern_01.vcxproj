@@ -86,7 +86,6 @@
     <ClCompile Include="FreshClams.cpp" />
     <ClCompile Include="FrozenClams.cpp" />
     <ClCompile Include="Garlic.cpp" />
-    <ClCompile Include="Ingredient.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MarinaraSauce.cpp" />
     <ClCompile Include="MozzarellaCheese.cpp" />
@@ -99,9 +98,6 @@
     <ClCompile Include="NYStyleVeggiePizza.cpp" />
     <ClCompile Include="Onion.cpp" />
     <ClCompile Include="Peppers.cpp" />
-    <ClCompile Include="Pizza.cpp" />
-    <ClCompile Include="PizzaIngredientFactory.cpp" />
-    <ClCompile Include="PizzaStore.cpp" />
     <ClCompile Include="PlumTomatoSauce.cpp" />
     <ClCompile Include="ReggianoCheese.cpp" />
     <ClCompile Include="SlicedPepperoni.cpp" />

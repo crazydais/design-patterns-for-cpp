@@ -1,18 +1,27 @@
 #pragma once
 
 #include <string>
+#include <vector>
 
-//	Abstract
+//	Abstract Class
 class Ingredient
 {
-public:
-	Ingredient();
-	virtual ~Ingredient();
-
-	virtual std::string toString();
-	virtual Ingredient* createIngredient() = 0;
-
 protected:
 	std::string name;
+
+public:
+	Ingredient()
+	{
+		this->name = "";
+	}
+
+	virtual ~Ingredient() {   }
+
+	virtual std::string toString()
+	{
+		return this->name;
+	}
+
+	virtual Ingredient* createIngredient() = 0;
 };
 

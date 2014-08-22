@@ -8,5 +8,5 @@ public:
 	ThinCrustDough();
 	~ThinCrustDough();
 
-	Ingredient* ThinCrustDough::createIngredient();
+	Ingredient* createIngredient();
 };

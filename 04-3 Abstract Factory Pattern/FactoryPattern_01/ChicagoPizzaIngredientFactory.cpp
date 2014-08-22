@@ -11,6 +11,12 @@ ChicagoPizzaIngredientFactory::ChicagoPizzaIngredientFactory()
 
 ChicagoPizzaIngredientFactory::~ChicagoPizzaIngredientFactory()
 {
+	for (std::vector<Ingredient*>::iterator it = this->veggies.begin(); it != this->veggies.end(); ++it)
+	{
+		delete *it;
+	}
+
+	this->veggies.erase(this->veggies.begin(), this->veggies.end());
 }
 
 Ingredient* ChicagoPizzaIngredientFactory::createDough()

@@ -19,6 +19,15 @@ NYStyleVeggiePizza::~NYStyleVeggiePizza()
 
 void NYStyleVeggiePizza::cut()
 {
-	std::cout << "Cutting " << this->getName() << " into rectangle slices" << std::endl;
+	for (std::vector<Ingredient*>::iterator it = this->veggies.begin(); it != this->veggies.end(); ++it)
+	{
+		delete *it;
+	}
+
+	this->veggies.erase(this->veggies.begin(), this->veggies.end());
+
+	delete this->dough;
+	delete this->sauce;
+	delete this->cheese;
 }
 

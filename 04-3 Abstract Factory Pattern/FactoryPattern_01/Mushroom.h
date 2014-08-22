@@ -8,6 +8,6 @@ public:
 	Mushroom();
 	~Mushroom();
 
-	Ingredient* Mushroom::createIngredient();
+	Ingredient* createIngredient();
 };
 

@@ -8,6 +8,6 @@ public:
 	MarinaraSauce();
 	~MarinaraSauce();
 
-	Ingredient* MarinaraSauce::createIngredient();
+	Ingredient* createIngredient();
 };
 

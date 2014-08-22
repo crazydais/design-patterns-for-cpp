@@ -8,6 +8,6 @@ public:
 	FreshClams();
 	~FreshClams();
 
-	Ingredient* FreshClams::createIngredient();
+	Ingredient* createIngredient();
 };
 

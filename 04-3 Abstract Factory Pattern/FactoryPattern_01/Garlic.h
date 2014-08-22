@@ -8,6 +8,6 @@ public:
 	Garlic();
 	~Garlic();
 
-	Ingredient* Garlic::createIngredient();
+	Ingredient* createIngredient();
 };
 

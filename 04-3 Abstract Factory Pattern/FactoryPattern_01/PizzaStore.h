@@ -5,17 +5,29 @@
 #include "ChicagoPizzaIngredientFactory.h"
 
 
-//	Interface
+//	Abstract Class
 class PizzaStore
 {
-public:
-	PizzaStore();
-	virtual ~PizzaStore();
-
-	virtual Pizza* orderPizza(std::string) final;
-	virtual Pizza* createPizza(std::string) = 0;
-
 protected:
 	Pizza *pizza;
 
+public:
+	PizzaStore() {   }
+	virtual ~PizzaStore()
+	{
+		delete this->pizza;
+	}
+
+	virtual Pizza* createPizza(std::string) = 0;
+
+	virtual Pizza* orderPizza(std::string arg_pizzaTyp) final
+	{
+		Pizza *pizza = this->createPizza(arg_pizzaTyp);
+		pizza->prepare();
+		pizza->bake();
+		pizza->cut();
+		pizza->box();
+
+		return pizza;
+	}
 };
