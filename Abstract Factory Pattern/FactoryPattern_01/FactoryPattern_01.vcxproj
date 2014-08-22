@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59061AC4-F228-47A3-8D7C-19646ED98FC6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FactoryPattern_01</RootNamespace>
+    <ProjectName>AbstractFactoryPattern</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ChicagoPizzaIngredientFactory.cpp" />
+    <ClCompile Include="ChicagoPizzaStore.cpp" />
+    <ClCompile Include="ChicagoStyleCheesePizza.cpp" />
+    <ClCompile Include="ChicagoStyleClamPizza.cpp" />
+    <ClCompile Include="ChicagoStylePepperoniPizza.cpp" />
+    <ClCompile Include="ChicagoStyleVeggiePizza.cpp" />
+    <ClCompile Include="FreshClams.cpp" />
+    <ClCompile Include="FrozenClams.cpp" />
+    <ClCompile Include="Garlic.cpp" />
+    <ClCompile Include="Ingredient.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MarinaraSauce.cpp" />
+    <ClCompile Include="MozzarellaCheese.cpp" />
+    <ClCompile Include="Mushroom.cpp" />
+    <ClCompile Include="NYPizzaIngredientFactroy.cpp" />
+    <ClCompile Include="NYPizzaStore.cpp" />
+    <ClCompile Include="NYStyleCheesePizza.cpp" />
+    <ClCompile Include="NYStyleClamPizza.cpp" />
+    <ClCompile Include="NYStylePepperoniPizza.cpp" />
+    <ClCompile Include="NYStyleVeggiePizza.cpp" />
+    <ClCompile Include="Onion.cpp" />
+    <ClCompile Include="Peppers.cpp" />
+    <ClCompile Include="Pizza.cpp" />
+    <ClCompile Include="PizzaIngredientFactory.cpp" />
+    <ClCompile Include="PizzaStore.cpp" />
+    <ClCompile Include="PlumTomatoSauce.cpp" />
+    <ClCompile Include="ReggianoCheese.cpp" />
+    <ClCompile Include="SlicedPepperoni.cpp" />
+    <ClCompile Include="ThickCrustDough.cpp" />
+    <ClCompile Include="ThinCrustDough.cpp" />
+    <ClCompile Include="Veggie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChicagoPizzaIngredientFactory.h" />
+    <ClInclude Include="ChicagoPizzaStore.h" />
+    <ClInclude Include="ChicagoStyleCheesePizza.h" />
+    <ClInclude Include="ChicagoStyleClamPizza.h" />
+    <ClInclude Include="ChicagoStylePepperoniPizza.h" />
+    <ClInclude Include="ChicagoStyleVeggiePizza.h" />
+    <ClInclude Include="FreshClams.h" />
+    <ClInclude Include="FrozenClams.h" />
+    <ClInclude Include="Garlic.h" />
+    <ClInclude Include="Ingredient.h" />
+    <ClInclude Include="MarinaraSauce.h" />
+    <ClInclude Include="MozzarellaCheese.h" />
+    <ClInclude Include="Mushroom.h" />
+    <ClInclude Include="NYPizzaIngredientFactroy.h" />
+    <ClInclude Include="NYPizzaStore.h" />
+    <ClInclude Include="NYStyleCheesePizza.h" />
+    <ClInclude Include="NYStyleClamPizza.h" />
+    <ClInclude Include="NYStylePepperoniPizza.h" />
+    <ClInclude Include="NYStyleVeggiePizza.h" />
+    <ClInclude Include="Onion.h" />
+    <ClInclude Include="Peppers.h" />
+    <ClInclude Include="Pizza.h" />
+    <ClInclude Include="PizzaIngredientFactory.h" />
+    <ClInclude Include="PizzaStore.h" />
+    <ClInclude Include="PlumTomatoSauce.h" />
+    <ClInclude Include="ReggianoCheese.h" />
+    <ClInclude Include="SlicedPepperoni.h" />
+    <ClInclude Include="ThickCrustDough.h" />
+    <ClInclude Include="ThinCrustDough.h" />
+    <ClInclude Include="Veggie.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

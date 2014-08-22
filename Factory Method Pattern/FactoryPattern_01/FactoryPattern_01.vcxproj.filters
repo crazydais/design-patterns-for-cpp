@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Pizzas h">
+      <UniqueIdentifier>{9eedcd32-db21-4bff-9567-7b91acf242ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pizza Stores h">
+      <UniqueIdentifier>{c659ff22-b0be-4e26-beb4-dbf6e914753f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pizzas Cpp">
+      <UniqueIdentifier>{d7ba36f7-f06e-404d-90b3-3b2f3f6e009d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pizza Stores Cpp">
+      <UniqueIdentifier>{b48085ad-aa80-48fb-b80f-e3f2a775b0bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NYPizzaStore.cpp">
+      <Filter>Source Files\Pizza Stores Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PizzaStore.cpp">
+      <Filter>Source Files\Pizza Stores Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NYStyleCheesePizza.cpp">
+      <Filter>Source Files\Pizzas Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza.cpp">
+      <Filter>Source Files\Pizzas Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NYStylePepperoniPizza.cpp">
+      <Filter>Source Files\Pizzas Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NYStyleClamPizza.cpp">
+      <Filter>Source Files\Pizzas Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NYStyleVeggiePizza.cpp">
+      <Filter>Source Files\Pizzas Cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pizza.h">
+      <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+    <ClInclude Include="NYStyleCheesePizza.h">
+      <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+    <ClInclude Include="NYPizzaStore.h">
+      <Filter>Header Files\Pizza Stores h</Filter>
+    </ClInclude>
+    <ClInclude Include="PizzaStore.h">
+      <Filter>Header Files\Pizza Stores h</Filter>
+    </ClInclude>
+    <ClInclude Include="NYStylePepperoniPizza.h">
+      <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+    <ClInclude Include="NYStyleClamPizza.h">
+      <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+    <ClInclude Include="NYStyleVeggiePizza.h">
+      <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
