@@ -61,8 +61,8 @@ public:
 		{
 			for (std::vector<Ingredient*>::iterator it = this->veggies.begin(); it != this->veggies.end(); ++it)
 			{
-				Ingredient* temp = *it;
-				std::cout << " " << temp->toString();
+				//	Cast 'Ingredient*' to the dereferenced iterator, so we can call the 'toString()' method
+				std::cout << " " << ((Ingredient*)*it)->toString();
 
 				//	Get the next iterator so long as it's not the last element or the second last element (ie, -1 from the end)
 				if (std::next(it) != this->veggies.end() && std::next(it) != this->veggies.end() - 1)
