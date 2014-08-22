@@ -3,17 +3,26 @@
 #include "Pizza.h"
 
 
-//	Interface
+//	Abstract Class
 class PizzaStore
 {
-public:
-	PizzaStore();
-	virtual ~PizzaStore();
-
-	virtual Pizza* orderPizza(std::string) final;
-	virtual Pizza* createPizza(std::string) = 0;
-
 protected:
 	Pizza *pizza;
 
+public:
+	PizzaStore() {  }
+	virtual ~PizzaStore() {  }
+	
+	virtual Pizza* createPizza(std::string) = 0;
+
+	virtual Pizza* orderPizza(std::string arg_pizzaType) final
+	{
+		Pizza *pizza = createPizza(arg_pizzaType);
+		pizza->prepare();
+		pizza->bake();
+		pizza->cut();
+		pizza->box();
+
+		return pizza;
+	}
 };

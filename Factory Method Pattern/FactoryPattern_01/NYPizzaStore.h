@@ -14,6 +14,6 @@ public:
 	NYPizzaStore();
 	~NYPizzaStore();
 
-	// Cannot override 'orderPizza(std::string)', as it is declared as final in PizzaStore
+	//	The Factory Method
 	Pizza* createPizza(std::string);
 };

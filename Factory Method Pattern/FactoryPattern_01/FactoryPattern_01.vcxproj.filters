@@ -33,13 +33,7 @@
     <ClCompile Include="NYPizzaStore.cpp">
       <Filter>Source Files\Pizza Stores Cpp</Filter>
     </ClCompile>
-    <ClCompile Include="PizzaStore.cpp">
-      <Filter>Source Files\Pizza Stores Cpp</Filter>
-    </ClCompile>
     <ClCompile Include="NYStyleCheesePizza.cpp">
-      <Filter>Source Files\Pizzas Cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="Pizza.cpp">
       <Filter>Source Files\Pizzas Cpp</Filter>
     </ClCompile>
     <ClCompile Include="NYStylePepperoniPizza.cpp">

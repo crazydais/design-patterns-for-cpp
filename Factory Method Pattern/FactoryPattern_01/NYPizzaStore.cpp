@@ -7,26 +7,27 @@ NYPizzaStore::NYPizzaStore()
 
 NYPizzaStore::~NYPizzaStore()
 {
+	delete this->pizza;
 }
 
 Pizza* NYPizzaStore::createPizza(std::string arg_pizzaType)
 {
 	if (arg_pizzaType == "cheese")
 	{
-		pizza = new NYStyleCheesePizza();
+		this->pizza = new NYStyleCheesePizza();
 	}
 	else if (arg_pizzaType == "pepperoni")
 	{
-		pizza = new NYStylePepperoniPizza();
+		this->pizza = new NYStylePepperoniPizza();
 	}
 	else if (arg_pizzaType == "clam")
 	{
-		pizza = new NYStyleClamPizza();
+		this->pizza = new NYStyleClamPizza();
 	}
 	else if (arg_pizzaType == "veggie")
 	{
-		pizza = new NYStyleVeggiePizza();
+		this->pizza = new NYStyleVeggiePizza();
 	}
 
-	return pizza;
+	return this->pizza;
 }

@@ -82,8 +82,6 @@
     <ClCompile Include="NYStyleClamPizza.cpp" />
     <ClCompile Include="NYStylePepperoniPizza.cpp" />
     <ClCompile Include="NYStyleVeggiePizza.cpp" />
-    <ClCompile Include="Pizza.cpp" />
-    <ClCompile Include="PizzaStore.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NYPizzaStore.h" />

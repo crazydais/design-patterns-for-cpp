@@ -15,6 +15,7 @@ NYStyleCheesePizza::NYStyleCheesePizza()
 
 NYStyleCheesePizza::~NYStyleCheesePizza()
 {
+	this->toppings.erase(this->toppings.begin(), this->toppings.end());
 	std::cout << "Destroying " << this->getName() << std::endl;
 }
 
