@@ -1,11 +1,17 @@
 #include "PizzaStore.h"
 #include "NYPizzaStore.h"
-#include "NYStyleCheesePizza.h"
+#include "ChicagoPizzaStore.h"
+
 
 int main()
 {
 	PizzaStore *nyps = new NYPizzaStore();
+	PizzaStore *cps = new ChicagoPizzaStore();
+
+
 	nyps->orderPizza("cheese");
+	std::cout << "\n" << std::endl;
+	cps->orderPizza("cheese");
 
 	std::cout << "\n-------------------------------\n" << std::endl;
 

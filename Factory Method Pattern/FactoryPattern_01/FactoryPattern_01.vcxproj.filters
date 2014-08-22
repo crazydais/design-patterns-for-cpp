@@ -45,6 +45,18 @@
     <ClCompile Include="NYStyleVeggiePizza.cpp">
       <Filter>Source Files\Pizzas Cpp</Filter>
     </ClCompile>
+    <ClCompile Include="ChicagoStyleCheesePizza.cpp">
+      <Filter>Source Files\Pizzas Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChicagoStylePepperoniPizza.cpp">
+      <Filter>Source Files\Pizzas Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChicagoStyleVeggiePizza.cpp">
+      <Filter>Source Files\Pizzas Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChicagoPizzaStore.cpp">
+      <Filter>Source Files\Pizza Stores Cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pizza.h">
@@ -67,6 +79,18 @@
     </ClInclude>
     <ClInclude Include="NYStyleVeggiePizza.h">
       <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoStyleCheesePizza.h">
+      <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoStylePepperoniPizza.h">
+      <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoStyleVeggiePizza.h">
+      <Filter>Header Files\Pizzas h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoPizzaStore.h">
+      <Filter>Header Files\Pizza Stores h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

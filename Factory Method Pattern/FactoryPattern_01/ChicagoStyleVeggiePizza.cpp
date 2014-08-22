@@ -1,10 +1,11 @@
-#include "NYStyleVeggiePizza.h"
+#include "ChicagoStyleVeggiePizza.h"
 
-NYStyleVeggiePizza::NYStyleVeggiePizza()
+
+ChicagoStyleVeggiePizza::ChicagoStyleVeggiePizza()
 {
-	this->name = "NY Style Veggie Pizza";
-	this->dough = "Thin Crust Dough";
-	this->sauce = "Marinara Sauce";
+	this->name = "Chicago Style Veggie Pizza";
+	this->dough = "Thick Crust Dough";
+	this->sauce = "Plum Tomato Sauce";
 
 	this->toppings.push_back("Grated Reggiano Cheese");
 	this->toppings.push_back("Jucie Baby Tomatoes");
@@ -15,14 +16,8 @@ NYStyleVeggiePizza::NYStyleVeggiePizza()
 }
 
 
-NYStyleVeggiePizza::~NYStyleVeggiePizza()
+ChicagoStyleVeggiePizza::~ChicagoStyleVeggiePizza()
 {
 	this->toppings.erase(this->toppings.begin(), this->toppings.end());
 	std::cout << "Destroying " << this->getName() << std::endl;
 }
-
-void NYStyleVeggiePizza::cut()
-{
-	std::cout << "Cutting " << this->getName() << " into rectangle slices" << std::endl;
-}
-

@@ -16,5 +16,6 @@ NYStyleClamPizza::NYStyleClamPizza()
 
 NYStyleClamPizza::~NYStyleClamPizza()
 {
+	this->toppings.erase(this->toppings.begin(), this->toppings.end());
 	std::cout << "Destroying " << this->getName() << std::endl;
 }

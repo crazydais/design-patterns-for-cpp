@@ -16,11 +16,12 @@ protected:
 	std::string dough = "standard dough";
 	std::string sauce = "standard sauce";
 	std::vector<std::string> toppings;
+
 public:
 	Pizza() {  }							// must override this in the subclass
 	virtual ~Pizza() { 	}
 
-	virtual void prepare()
+	virtual void prepare() final
 	{
 		std::cout << "Preparing " << this->getName() << " with " << this->getDough() << " and " << this->getSauce() << ",\ntopped with";
 		for (std::vector<std::string>::iterator it = this->toppings.begin(); it != this->toppings.end(); ++it)

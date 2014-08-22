@@ -2,12 +2,13 @@
 
 #include "PizzaStore.h"
 
-class NYPizzaStore : public PizzaStore
+class ChicagoPizzaStore : public PizzaStore
 {
 public:
-	NYPizzaStore();
-	~NYPizzaStore();
+	ChicagoPizzaStore();
+	~ChicagoPizzaStore();
 
 	//	The Factory Method
 	Pizza* createPizza(std::string);
 };
+

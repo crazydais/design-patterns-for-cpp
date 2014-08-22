@@ -76,6 +76,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChicagoPizzaStore.cpp" />
+    <ClCompile Include="ChicagoStyleCheesePizza.cpp" />
+    <ClCompile Include="ChicagoStylePepperoniPizza.cpp" />
+    <ClCompile Include="ChicagoStyleVeggiePizza.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NYPizzaStore.cpp" />
     <ClCompile Include="NYStyleCheesePizza.cpp" />
@@ -84,6 +88,10 @@
     <ClCompile Include="NYStyleVeggiePizza.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ChicagoPizzaStore.h" />
+    <ClInclude Include="ChicagoStyleCheesePizza.h" />
+    <ClInclude Include="ChicagoStylePepperoniPizza.h" />
+    <ClInclude Include="ChicagoStyleVeggiePizza.h" />
     <ClInclude Include="NYPizzaStore.h" />
     <ClInclude Include="NYStyleCheesePizza.h" />
     <ClInclude Include="NYStyleClamPizza.h" />

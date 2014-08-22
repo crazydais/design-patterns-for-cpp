@@ -11,11 +11,11 @@ NYStylePepperoniPizza::NYStylePepperoniPizza()
 	this->toppings.push_back("Italian Herbs");
 
 	std::cout << "Creating " << this->getName() << std::endl;
-
 }
 
 
 NYStylePepperoniPizza::~NYStylePepperoniPizza()
 {
+	this->toppings.erase(this->toppings.begin(), this->toppings.end());
 	std::cout << "Destroying " << this->getName() << std::endl;
 }

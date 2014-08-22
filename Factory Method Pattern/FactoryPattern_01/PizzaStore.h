@@ -1,6 +1,13 @@
 #pragma once
 
 #include "Pizza.h"
+#include "NYStyleCheesePizza.h"
+#include "NYStylePepperoniPizza.h"
+#include "NYStyleClamPizza.h"
+#include "NYStyleVeggiePizza.h"
+#include "ChicagoStyleCheesePizza.h"
+#include "ChicagoStylePepperoniPizza.h"
+#include "ChicagoStyleVeggiePizza.h"
 
 
 //	Abstract Class
