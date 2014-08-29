@@ -21,6 +21,21 @@ public:
 	Pizza() {  }							// must override this in the subclass
 	virtual ~Pizza() { 	}
 
+	virtual std::string getName()
+	{
+		return this->name;
+	}
+
+	virtual std::string getDough()
+	{
+		return this->dough;
+	}
+
+	virtual std::string getSauce()
+	{
+		return this->sauce;
+	}
+
 	virtual void prepare() final
 	{
 		std::cout << "Preparing " << this->getName() << " with " << this->getDough() << " and " << this->getSauce() << ",\ntopped with";
@@ -55,20 +70,5 @@ public:
 	virtual void box()
 	{
 		std::cout << "Boxing " << this->getName() << std::endl;
-	}
-	
-	virtual std::string getName()
-	{
-		return this->name;
-	}
-	
-	virtual std::string getDough()
-	{
-		return this->dough;
-	}
-	
-	virtual std::string getSauce()
-	{
-		return this->sauce;
 	}
 };
