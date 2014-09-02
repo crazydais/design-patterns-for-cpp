@@ -1,0 +1,406 @@
+diff --git a/01 Strategy Pattern/Strategy Pattern.pptx b/01 Strategy Pattern/Strategy Pattern.pptx
+new file mode 100644
+index 0000000..bc08066
+Binary files /dev/null and b/01 Strategy Pattern/Strategy Pattern.pptx differ
+
+diff --git a/04-1 Simple Factory/Debug/Simple Factory.exe b/04-1 Simple Factory/Debug/Simple Factory.exe
+index a176f6b..68720aa 100644
+Binary files a/04-1 Simple Factory/Debug/Simple Factory.exe and b/04-1 Simple Factory/Debug/Simple Factory.exe differ
+
+diff --git a/04-1 Simple Factory/Debug/Simple Factory.ilk b/04-1 Simple Factory/Debug/Simple Factory.ilk
+index 9a7e59a..c5fd7db 100644
+Binary files a/04-1 Simple Factory/Debug/Simple Factory.ilk and b/04-1 Simple Factory/Debug/Simple Factory.ilk differ
+
+diff --git a/04-1 Simple Factory/Debug/Simple Factory.pdb b/04-1 Simple Factory/Debug/Simple Factory.pdb
+index d0be2bb..1ff8b68 100644
+Binary files a/04-1 Simple Factory/Debug/Simple Factory.pdb and b/04-1 Simple Factory/Debug/Simple Factory.pdb differ
+
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/CheesePizza.obj b/04-1 Simple Factory/FactoryPattern_01/Debug/CheesePizza.obj
+index 0fa5ea0..dafa31c 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/CheesePizza.obj and b/04-1 Simple Factory/FactoryPattern_01/Debug/CheesePizza.obj differ
+
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/ClamPizza.obj b/04-1 Simple Factory/FactoryPattern_01/Debug/ClamPizza.obj
+index d2882f5..fc3be40 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/ClamPizza.obj and b/04-1 Simple Factory/FactoryPattern_01/Debug/ClamPizza.obj differ
+
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/FactoryPattern_01.log b/04-1 Simple Factory/FactoryPattern_01/Debug/FactoryPattern_01.log
+index b03d77f..02bb4fa 100644
+--- a/04-1 Simple Factory/FactoryPattern_01/Debug/FactoryPattern_01.log	
++++ b/04-1 Simple Factory/FactoryPattern_01/Debug/FactoryPattern_01.log	
+@@ -1,23 +1,10 @@
+-﻿Build started 22/08/2014 14:16:09.
+-     1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Simple Factory\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
++﻿Build started 25/08/2014 10:53:09.
++     1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-1 Simple Factory\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
+      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FactoryPattern_01.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+-     1>ClCompile:
+-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CheesePizza.cpp ClamPizza.cpp PepperoniPizza.cpp VeggiePizza.cpp
+-         VeggiePizza.cpp
+-         PepperoniPizza.cpp
+-         ClamPizza.cpp
+-         CheesePizza.cpp
+-         Generating Code...
+-       Link:
+-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Simple Factory\Debug\Simple Factory.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Simple Factory\Debug\Simple Factory.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Simple Factory\Debug\Simple Factory.lib" /MACHINE:X86 Debug\main.obj
+-         Debug\CheesePizza.obj
+-         Debug\ClamPizza.obj
+-         Debug\PepperoniPizza.obj
+-         Debug\VeggiePizza.obj
+-         Debug\SimpleFactory.obj
+-         FactoryPattern_01.vcxproj -> C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Simple Factory\Debug\Simple Factory.exe
+-     1>Done Building Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Simple Factory\FactoryPattern_01\FactoryPattern_01.vcxproj" (Build target(s)).
++     1>Link:
++         FactoryPattern_01.vcxproj -> C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-1 Simple Factory\Debug\Simple Factory.exe
++     1>Done Building Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-1 Simple Factory\FactoryPattern_01\FactoryPattern_01.vcxproj" (Build target(s)).
+ 
+ Build succeeded.
+ 
+-Time Elapsed 00:00:02.72
++Time Elapsed 00:00:00.07
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/PepperoniPizza.obj b/04-1 Simple Factory/FactoryPattern_01/Debug/PepperoniPizza.obj
+index 4d94c20..9d9a48b 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/PepperoniPizza.obj and b/04-1 Simple Factory/FactoryPattern_01/Debug/PepperoniPizza.obj differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/CL.read.1.tlog b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/CL.read.1.tlog
+index de481ed..28789d7 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/CL.read.1.tlog and b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/CL.read.1.tlog differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/CL.write.1.tlog b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/CL.write.1.tlog
+index ac8515a..d47b453 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/CL.write.1.tlog and b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/CL.write.1.tlog differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/Simple Factory.lastbuildstate b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/Simple Factory.lastbuildstate
+index 0078cdc..7f404e7 100644
+--- a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/Simple Factory.lastbuildstate	
++++ b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/Simple Factory.lastbuildstate	
+@@ -1,2 +1,2 @@
+ #TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+-Debug|Win32|C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Simple Factory\|
++Debug|Win32|C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-1 Simple Factory\|
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/cl.command.1.tlog b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/cl.command.1.tlog
+index c7956e4..05798fb 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/cl.command.1.tlog and b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/cl.command.1.tlog differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.command.1.tlog b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.command.1.tlog
+index 8700ba6..255e565 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.command.1.tlog and b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.command.1.tlog differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.read.1.tlog b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.read.1.tlog
+index 9639392..7c07b21 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.read.1.tlog and b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.read.1.tlog differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.write.1.tlog b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.write.1.tlog
+index 4429ed3..a96f5e5 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.write.1.tlog and b/04-1 Simple Factory/FactoryPattern_01/Debug/Simple Factory.tlog/link.write.1.tlog differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/SimpleFactory.obj b/04-1 Simple Factory/FactoryPattern_01/Debug/SimpleFactory.obj
+index cea85a0..3e3cae5 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/SimpleFactory.obj and b/04-1 Simple Factory/FactoryPattern_01/Debug/SimpleFactory.obj differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/VeggiePizza.obj b/04-1 Simple Factory/FactoryPattern_01/Debug/VeggiePizza.obj
+index 53620ac..81832f4 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/VeggiePizza.obj and b/04-1 Simple Factory/FactoryPattern_01/Debug/VeggiePizza.obj differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/main.obj b/04-1 Simple Factory/FactoryPattern_01/Debug/main.obj
+index ea484d9..4387b6a 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/main.obj and b/04-1 Simple Factory/FactoryPattern_01/Debug/main.obj differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/vc120.idb b/04-1 Simple Factory/FactoryPattern_01/Debug/vc120.idb
+index 1b182e4..97afc6d 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/vc120.idb and b/04-1 Simple Factory/FactoryPattern_01/Debug/vc120.idb differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Debug/vc120.pdb b/04-1 Simple Factory/FactoryPattern_01/Debug/vc120.pdb
+index 94bc4bc..4cf37bd 100644
+Binary files a/04-1 Simple Factory/FactoryPattern_01/Debug/vc120.pdb and b/04-1 Simple Factory/FactoryPattern_01/Debug/vc120.pdb differ
+diff --git a/04-1 Simple Factory/FactoryPattern_01/Pizza.h b/04-1 Simple Factory/FactoryPattern_01/Pizza.h
+index 33b5eff..4d6d03d 100644
+--- a/04-1 Simple Factory/FactoryPattern_01/Pizza.h	
++++ b/04-1 Simple Factory/FactoryPattern_01/Pizza.h	
+@@ -21,6 +21,21 @@ public:
+ 	Pizza() {  }							// must override this in the subclass
+ 	virtual ~Pizza() { 	}
+ 
++	virtual std::string getName()
++	{
++		return this->name;
++	}
++
++	virtual std::string getDough()
++	{
++		return this->dough;
++	}
++
++	virtual std::string getSauce()
++	{
++		return this->sauce;
++	}
++
+ 	virtual void prepare() final
+ 	{
+ 		std::cout << "Preparing " << this->getName() << " with " << this->getDough() << " and " << this->getSauce() << ",\ntopped with";
+@@ -56,19 +71,4 @@ public:
+ 	{
+ 		std::cout << "Boxing " << this->getName() << std::endl;
+ 	}
+-	
+-	virtual std::string getName()
+-	{
+-		return this->name;
+-	}
+-	
+-	virtual std::string getDough()
+-	{
+-		return this->dough;
+-	}
+-	
+-	virtual std::string getSauce()
+-	{
+-		return this->sauce;
+-	}
+ };
+diff --git a/04-1 Simple Factory/Simple Factory.sdf b/04-1 Simple Factory/Simple Factory.sdf
+new file mode 100644
+index 0000000..f6d25f0
+Binary files /dev/null and b/04-1 Simple Factory/Simple Factory.sdf differ
+diff --git a/04-1 Simple Factory/Simple Factory.v12.suo b/04-1 Simple Factory/Simple Factory.v12.suo
+index 5ad9722..9ec6714 100644
+Binary files a/04-1 Simple Factory/Simple Factory.v12.suo and b/04-1 Simple Factory/Simple Factory.v12.suo differ
+diff --git a/04-2 Factory Method Pattern/Debug/FactoryPattern_01.exe b/04-2 Factory Method Pattern/Debug/FactoryPattern_01.exe
+index e192187..ea17943 100644
+Binary files a/04-2 Factory Method Pattern/Debug/FactoryPattern_01.exe and b/04-2 Factory Method Pattern/Debug/FactoryPattern_01.exe differ
+diff --git a/04-2 Factory Method Pattern/Debug/FactoryPattern_01.ilk b/04-2 Factory Method Pattern/Debug/FactoryPattern_01.ilk
+index c131f9c..9852062 100644
+Binary files a/04-2 Factory Method Pattern/Debug/FactoryPattern_01.ilk and b/04-2 Factory Method Pattern/Debug/FactoryPattern_01.ilk differ
+diff --git a/04-2 Factory Method Pattern/Debug/FactoryPattern_01.pdb b/04-2 Factory Method Pattern/Debug/FactoryPattern_01.pdb
+index d2e6041..9bda5d4 100644
+Binary files a/04-2 Factory Method Pattern/Debug/FactoryPattern_01.pdb and b/04-2 Factory Method Pattern/Debug/FactoryPattern_01.pdb differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01.sdf b/04-2 Factory Method Pattern/FactoryPattern_01.sdf
+index cec66df..2e77296 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01.sdf and b/04-2 Factory Method Pattern/FactoryPattern_01.sdf differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01.v12.suo b/04-2 Factory Method Pattern/FactoryPattern_01.v12.suo
+index 6ad125a..a97c318 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01.v12.suo and b/04-2 Factory Method Pattern/FactoryPattern_01.v12.suo differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoPizzaStore.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoPizzaStore.obj
+index 006cb4f..6018a6d 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoPizzaStore.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoPizzaStore.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStyleCheesePizza.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStyleCheesePizza.obj
+index 5bc1e27..775acd4 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStyleCheesePizza.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStyleCheesePizza.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStylePepperoniPizza.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStylePepperoniPizza.obj
+index 222fe0a..222858f 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStylePepperoniPizza.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStylePepperoniPizza.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStyleVeggiePizza.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStyleVeggiePizza.obj
+index 5ef188c..0efb9cc 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStyleVeggiePizza.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/ChicagoStyleVeggiePizza.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/CL.read.1.tlog b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/CL.read.1.tlog
+index cfa82ae..e4a6a64 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/CL.read.1.tlog and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/CL.read.1.tlog differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/CL.write.1.tlog b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/CL.write.1.tlog
+index 76dc80e..567a40e 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/CL.write.1.tlog and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/CL.write.1.tlog differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/FactoryPattern_01.lastbuildstate b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/FactoryPattern_01.lastbuildstate
+index 1fb5ee8..61bb23f 100644
+--- a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/FactoryPattern_01.lastbuildstate	
++++ b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/FactoryPattern_01.lastbuildstate	
+@@ -1,2 +1,2 @@
+ #TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+-Debug|Win32|C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Factory Method Pattern\|
++Debug|Win32|C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-2 Factory Method Pattern\|
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/cl.command.1.tlog b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/cl.command.1.tlog
+index 7d48dbb..f7cc29d 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/cl.command.1.tlog and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/cl.command.1.tlog differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.command.1.tlog b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.command.1.tlog
+index 29fb19f..f45a1fb 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.command.1.tlog and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.command.1.tlog differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.read.1.tlog b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.read.1.tlog
+index c3d708d..aeb8b37 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.read.1.tlog and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.read.1.tlog differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.write.1.tlog b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.write.1.tlog
+index 63e9d36..8aad709 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.write.1.tlog and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryP.59061AC4.tlog/link.write.1.tlog differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryPattern_01.log b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryPattern_01.log
+index 57513a9..b156012 100644
+--- a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryPattern_01.log	
++++ b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/FactoryPattern_01.log	
+@@ -1,26 +1,9 @@
+-﻿Build started 22/08/2014 13:50:26.
+-     1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Factory Method Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
+-     1>ClCompile:
+-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChicagoPizzaStore.cpp NYPizzaStore.cpp main.cpp
+-         main.cpp
+-         Generating Code...
+-         Skipping... (no relevant changes detected)
+-         NYPizzaStore.cpp
+-         ChicagoPizzaStore.cpp
+-       Link:
+-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Factory Method Pattern\Debug\FactoryPattern_01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Factory Method Pattern\Debug\FactoryPattern_01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Factory Method Pattern\Debug\FactoryPattern_01.lib" /MACHINE:X86 Debug\ChicagoPizzaStore.obj
+-         Debug\ChicagoStyleCheesePizza.obj
+-         Debug\ChicagoStylePepperoniPizza.obj
+-         Debug\ChicagoStyleVeggiePizza.obj
+-         Debug\main.obj
+-         Debug\NYPizzaStore.obj
+-         Debug\NYStyleCheesePizza.obj
+-         Debug\NYStyleClamPizza.obj
+-         Debug\NYStylePepperoniPizza.obj
+-         Debug\NYStyleVeggiePizza.obj
+-         FactoryPattern_01.vcxproj -> C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Factory Method Pattern\Debug\FactoryPattern_01.exe
+-     1>Done Building Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\Factory Method Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" (Build target(s)).
++﻿Build started 27/08/2014 16:36:53.
++     1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-2 Factory Method Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
++     1>Link:
++         FactoryPattern_01.vcxproj -> C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-2 Factory Method Pattern\Debug\FactoryPattern_01.exe
++     1>Done Building Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-2 Factory Method Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" (Build target(s)).
+ 
+ Build succeeded.
+ 
+-Time Elapsed 00:00:01.53
++Time Elapsed 00:00:00.07
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYPizzaStore.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYPizzaStore.obj
+index 38524e7..e19f2ea 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYPizzaStore.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYPizzaStore.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleCheesePizza.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleCheesePizza.obj
+index b6b3851..5974cd9 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleCheesePizza.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleCheesePizza.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleClamPizza.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleClamPizza.obj
+index 76e4311..ae4d4ab 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleClamPizza.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleClamPizza.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStylePepperoniPizza.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStylePepperoniPizza.obj
+index efd8119..744dee4 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStylePepperoniPizza.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStylePepperoniPizza.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleVeggiePizza.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleVeggiePizza.obj
+index 89401e5..b5b809b 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleVeggiePizza.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/NYStyleVeggiePizza.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/main.obj b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/main.obj
+index eb3dda0..12e5832 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/main.obj and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/main.obj differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/vc120.idb b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/vc120.idb
+index 6d5f44e..becc751 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/vc120.idb and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/vc120.idb differ
+diff --git a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/vc120.pdb b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/vc120.pdb
+index f082436..60299cb 100644
+Binary files a/04-2 Factory Method Pattern/FactoryPattern_01/Debug/vc120.pdb and b/04-2 Factory Method Pattern/FactoryPattern_01/Debug/vc120.pdb differ
+diff --git a/04-3 Abstract Factory Pattern/AbstractFactoryPattern.opensdf b/04-3 Abstract Factory Pattern/AbstractFactoryPattern.opensdf
+deleted file mode 100644
+index 7787ed1..0000000
+Binary files a/04-3 Abstract Factory Pattern/AbstractFactoryPattern.opensdf and /dev/null differ
+diff --git a/04-3 Abstract Factory Pattern/AbstractFactoryPattern.sdf b/04-3 Abstract Factory Pattern/AbstractFactoryPattern.sdf
+index b37c554..a2ad025 100644
+Binary files a/04-3 Abstract Factory Pattern/AbstractFactoryPattern.sdf and b/04-3 Abstract Factory Pattern/AbstractFactoryPattern.sdf differ
+diff --git a/04-3 Abstract Factory Pattern/AbstractFactoryPattern.v12.suo b/04-3 Abstract Factory Pattern/AbstractFactoryPattern.v12.suo
+index 31620e8..06e9df0 100644
+Binary files a/04-3 Abstract Factory Pattern/AbstractFactoryPattern.v12.suo and b/04-3 Abstract Factory Pattern/AbstractFactoryPattern.v12.suo differ
+diff --git a/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.exe b/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.exe
+index acddc15..744a75a 100644
+Binary files a/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.exe and b/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.exe differ
+diff --git a/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.ilk b/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.ilk
+index 108c2c4..485bc79 100644
+Binary files a/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.ilk and b/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.ilk differ
+diff --git a/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.pdb b/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.pdb
+index 98cfd3c..38f1431 100644
+Binary files a/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.pdb and b/04-3 Abstract Factory Pattern/Debug/AbstractFactoryPattern.pdb differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/Abstract.59061AC4.tlog/CL.write.1.tlog b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/Abstract.59061AC4.tlog/CL.write.1.tlog
+index 8e9c179..76ea9e5 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/Abstract.59061AC4.tlog/CL.write.1.tlog and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/Abstract.59061AC4.tlog/CL.write.1.tlog differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoPizzaStore.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoPizzaStore.obj
+index 44a417e..54a3cd2 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoPizzaStore.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoPizzaStore.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleCheesePizza.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleCheesePizza.obj
+index 6f3ba87..f0968c4 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleCheesePizza.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleCheesePizza.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleClamPizza.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleClamPizza.obj
+index 420fbdc..0701741 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleClamPizza.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleClamPizza.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStylePepperoniPizza.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStylePepperoniPizza.obj
+index 04eabd8..d66f503 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStylePepperoniPizza.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStylePepperoniPizza.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleVeggiePizza.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleVeggiePizza.obj
+index cff1542..96be489 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleVeggiePizza.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/ChicagoStyleVeggiePizza.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/FactoryPattern_01.log b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/FactoryPattern_01.log
+index 713252a..609fe4a 100644
+--- a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/FactoryPattern_01.log	
++++ b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/FactoryPattern_01.log	
+@@ -1,39 +1,21 @@
+-﻿Build started 22/08/2014 15:38:46.
++﻿Build started 22/08/2014 15:55:03.
+      1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
+      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FactoryPattern_01.vcxproj, FactoryPattern_02.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+      1>ClCompile:
+-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChicagoPizzaIngredientFactory.cpp ChicagoPizzaStore.cpp ChicagoStyleCheesePizza.cpp ChicagoStyleClamPizza.cpp ChicagoStylePepperoniPizza.cpp ChicagoStyleVeggiePizza.cpp FreshClams.cpp FrozenClams.cpp Garlic.cpp MarinaraSauce.cpp MozzarellaCheese.cpp Mushroom.cpp NYPizzaIngredientFactroy.cpp NYPizzaStore.cpp NYStyleCheesePizza.cpp NYStyleClamPizza.cpp NYStylePepperoniPizza.cpp NYStyleVeggiePizza.cpp Onion.cpp Peppers.cpp PlumTomatoSauce.cpp ReggianoCheese.cpp SlicedPepperoni.cpp ThickCrustDough.cpp ThinCrustDough.cpp Veggie.cpp main.cpp
+-         ChicagoPizzaIngredientFactory.cpp
++         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChicagoPizzaStore.cpp ChicagoStyleCheesePizza.cpp ChicagoStyleClamPizza.cpp ChicagoStylePepperoniPizza.cpp ChicagoStyleVeggiePizza.cpp NYPizzaStore.cpp NYStyleCheesePizza.cpp NYStyleClamPizza.cpp NYStylePepperoniPizza.cpp NYStyleVeggiePizza.cpp main.cpp
++         ChicagoPizzaStore.cpp
+          Generating Code...
+          Compiling...
+          main.cpp
+-         Veggie.cpp
+-         ThinCrustDough.cpp
+-         ThickCrustDough.cpp
+-         SlicedPepperoni.cpp
+-         ReggianoCheese.cpp
+-         PlumTomatoSauce.cpp
+-         Peppers.cpp
+-         Onion.cpp
+          NYStyleVeggiePizza.cpp
+          NYStylePepperoniPizza.cpp
+          NYStyleClamPizza.cpp
+          NYStyleCheesePizza.cpp
+          NYPizzaStore.cpp
+-         NYPizzaIngredientFactroy.cpp
+-         Mushroom.cpp
+-         MozzarellaCheese.cpp
+-         MarinaraSauce.cpp
+-         Garlic.cpp
+-         FrozenClams.cpp
+-         Generating Code...
+-         Compiling...
+-         FreshClams.cpp
+          ChicagoStyleVeggiePizza.cpp
+          ChicagoStylePepperoniPizza.cpp
+          ChicagoStyleClamPizza.cpp
+          ChicagoStyleCheesePizza.cpp
+-         ChicagoPizzaStore.cpp
+          Generating Code...
+        Link:
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\Debug\AbstractFactoryPattern.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\Debug\AbstractFactoryPattern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-3 Abstract Factory Pattern\Debug\AbstractFactoryPattern.lib" /MACHINE:X86 Debug\ChicagoPizzaIngredientFactory.obj
+@@ -68,4 +50,4 @@
+ 
+ Build succeeded.
+ 
+-Time Elapsed 00:00:11.67
++Time Elapsed 00:00:05.76
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYPizzaStore.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYPizzaStore.obj
+index 8c1c6ff..0e779f6 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYPizzaStore.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYPizzaStore.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleCheesePizza.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleCheesePizza.obj
+index 3185add..44c0f30 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleCheesePizza.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleCheesePizza.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleClamPizza.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleClamPizza.obj
+index c709be4..e52b6c7 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleClamPizza.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleClamPizza.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStylePepperoniPizza.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStylePepperoniPizza.obj
+index 09df3cc..997ada2 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStylePepperoniPizza.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStylePepperoniPizza.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleVeggiePizza.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleVeggiePizza.obj
+index a363c0d..232c7c2 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleVeggiePizza.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/NYStyleVeggiePizza.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/main.obj b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/main.obj
+index bd8e7f6..ec0a934 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/main.obj and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/main.obj differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/vc120.idb b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/vc120.idb
+index f56a9f1..2d3a829 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/vc120.idb and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/vc120.idb differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/vc120.pdb b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/vc120.pdb
+index b48b4bd..a3d6e56 100644
+Binary files a/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/vc120.pdb and b/04-3 Abstract Factory Pattern/FactoryPattern_01/Debug/vc120.pdb differ
+diff --git a/04-3 Abstract Factory Pattern/FactoryPattern_01/Pizza.h b/04-3 Abstract Factory Pattern/FactoryPattern_01/Pizza.h
+index e847602..a72f65c 100644
+--- a/04-3 Abstract Factory Pattern/FactoryPattern_01/Pizza.h	
++++ b/04-3 Abstract Factory Pattern/FactoryPattern_01/Pizza.h	
+@@ -61,8 +61,8 @@ public:
+ 		{
+ 			for (std::vector<Ingredient*>::iterator it = this->veggies.begin(); it != this->veggies.end(); ++it)
+ 			{
+-				Ingredient* temp = *it;
+-				std::cout << " " << temp->toString();
++				//	Cast 'Ingredient*' to the dereferenced iterator, so we can call the 'toString()' method
++				std::cout << " " << ((Ingredient*)*it)->toString();
+ 
+ 				//	Get the next iterator so long as it's not the last element or the second last element (ie, -1 from the end)
+ 				if (std::next(it) != this->veggies.end() && std::next(it) != this->veggies.end() - 1)
+diff --git a/Factories.pptx b/Factories.pptx
+new file mode 100644
+index 0000000..51ee1a1
+Binary files /dev/null and b/Factories.pptx differ
+diff --git a/delete me.txt b/delete me.txt
+new file mode 100644
+index 0000000..e69de29
