@@ -1,9 +1,0 @@
-# Ignore _netrc file
-/Other\ Files/_netrc
-
-# Ignore Debug Folders for Visual Studio Projects
-/01\ Strategy\ Pattern/Debug/*
-/04-1\ Simple\ Factory/Debug/*
-/04-2\ Factory\ Method\ Pattern/Debug/*
-/04-3\ Abstract\ Factory\ Pattern/Debug/*
-
