@@ -4,9 +4,7 @@
 int main()
 {
 	PizzaStore *pizzaStore = new PizzaStore();
-
-
-
+	
 	pizzaStore->orderPizza("cheese");
 
 	std::cout << "\n-------------------------------\n" << std::endl;

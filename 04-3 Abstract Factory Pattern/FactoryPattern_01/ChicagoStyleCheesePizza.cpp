@@ -1,21 +1,19 @@
 #include "ChicagoStyleCheesePizza.h"
 
 
-ChicagoStyleCheesePizza::ChicagoStyleCheesePizza(PizzaIngredientFactory* arg_ingredientFactory)
+ChicagoStyleCheesePizza::ChicagoStyleCheesePizza(PizzaIngredientFactory *arg_ingredientFactory)
 {
-	this->name = "Chicago Style Pepperoni Pizza";
-
-	this->dough = arg_ingredientFactory->createDough();
-	this->sauce = arg_ingredientFactory->createSauce();
-	this->cheese = arg_ingredientFactory->createCheese();
-
-	std::cout << "Creating " << this->getName() << std::endl;
+	this->setName();
+	this->name = "Chicago Style " + this->pizzaType + " Pizza";
+	this->setupIngredients(arg_ingredientFactory);
 }
-
 
 ChicagoStyleCheesePizza::~ChicagoStyleCheesePizza()
 {
-	delete this->dough;
-	delete this->sauce;
-	delete this->cheese;
+
+}
+
+void ChicagoStyleCheesePizza::setName()
+{
+	this->pizzaType = "Cheese";
 }

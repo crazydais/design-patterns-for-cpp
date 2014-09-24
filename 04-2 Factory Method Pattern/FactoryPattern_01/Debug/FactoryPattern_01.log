@@ -1,8 +1,8 @@
-﻿Build started 27/08/2014 16:36:53.
-     1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-2 Factory Method Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
+﻿Build started 22/09/2014 15:09:33.
+     1>Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\design-patterns-illustrated-cpp\04-2 Factory Method Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" on node 2 (Build target(s)).
      1>Link:
-         FactoryPattern_01.vcxproj -> C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-2 Factory Method Pattern\Debug\FactoryPattern_01.exe
-     1>Done Building Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\Design Patterns C++\04-2 Factory Method Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" (Build target(s)).
+         FactoryPattern_01.vcxproj -> C:\Users\DNolan\Docs\Programming\Aspire Projects\design-patterns-illustrated-cpp\04-2 Factory Method Pattern\Debug\FactoryPattern_01.exe
+     1>Done Building Project "C:\Users\DNolan\Docs\Programming\Aspire Projects\design-patterns-illustrated-cpp\04-2 Factory Method Pattern\FactoryPattern_01\FactoryPattern_01.vcxproj" (Build target(s)).
 
 Build succeeded.
 

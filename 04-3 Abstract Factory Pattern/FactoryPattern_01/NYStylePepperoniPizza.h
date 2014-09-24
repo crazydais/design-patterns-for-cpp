@@ -8,4 +8,5 @@ class NYStylePepperoniPizza : public Pizza
 public:
 	NYStylePepperoniPizza(PizzaIngredientFactory*);
 	~NYStylePepperoniPizza();
+	void setName();
 };

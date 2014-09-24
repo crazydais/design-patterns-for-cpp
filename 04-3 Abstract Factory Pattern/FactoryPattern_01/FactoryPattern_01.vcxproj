@@ -101,6 +101,7 @@
     <ClCompile Include="PlumTomatoSauce.cpp" />
     <ClCompile Include="ReggianoCheese.cpp" />
     <ClCompile Include="SlicedPepperoni.cpp" />
+    <ClCompile Include="Sweetcorn.cpp" />
     <ClCompile Include="ThickCrustDough.cpp" />
     <ClCompile Include="ThinCrustDough.cpp" />
     <ClCompile Include="Veggie.cpp" />
@@ -133,6 +134,7 @@
     <ClInclude Include="PlumTomatoSauce.h" />
     <ClInclude Include="ReggianoCheese.h" />
     <ClInclude Include="SlicedPepperoni.h" />
+    <ClInclude Include="Sweetcorn.h" />
     <ClInclude Include="ThickCrustDough.h" />
     <ClInclude Include="ThinCrustDough.h" />
     <ClInclude Include="Veggie.h" />

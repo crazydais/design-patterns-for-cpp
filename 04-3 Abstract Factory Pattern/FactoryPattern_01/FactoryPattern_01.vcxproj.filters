@@ -123,6 +123,9 @@
     <ClCompile Include="ChicagoStyleVeggiePizza.cpp">
       <Filter>Source Files\Pizzas Cpp</Filter>
     </ClCompile>
+    <ClCompile Include="Sweetcorn.cpp">
+      <Filter>Source Files\Ingredients Cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NYStyleCheesePizza.h">
@@ -214,6 +217,9 @@
     </ClInclude>
     <ClInclude Include="Pizza.h">
       <Filter>Header Files\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sweetcorn.h">
+      <Filter>Header Files\Ingredients h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

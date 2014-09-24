@@ -5,7 +5,7 @@ NYPizzaIngredientFactroy::NYPizzaIngredientFactroy()
 {
 	this->veggies.push_back(new Garlic());
 	this->veggies.push_back(new Mushroom());
-	this->veggies.push_back(new Onion());
+	this->veggies.push_back(new Sweetcorn());
 }
 
 NYPizzaIngredientFactroy::~NYPizzaIngredientFactroy()

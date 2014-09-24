@@ -15,19 +15,19 @@ int main()
 
 	nyps->orderPizza("pepperoni");
 	std::cout << "\n" << std::endl;
-	cps->orderPizza("cheese");
+	cps->orderPizza("pepperoni");
 
 	std::cout << "\n-------------------------------\n" << std::endl;
 
 	nyps->orderPizza("clam");
 	std::cout << "\n" << std::endl;
-	cps->orderPizza("cheese");
+	cps->orderPizza("clam");
 
 	std::cout << "\n-------------------------------\n" << std::endl;
 
 	nyps->orderPizza("veggie");
 	std::cout << "\n" << std::endl;
-	cps->orderPizza("cheese");
+	cps->orderPizza("veggie");
 
 	std::cout << "\n\n" << std::endl;
 

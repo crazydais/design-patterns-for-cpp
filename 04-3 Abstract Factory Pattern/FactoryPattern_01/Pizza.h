@@ -13,7 +13,9 @@
 class Pizza
 {
 protected:
+	std::string pizzaType;
 	std::string name;
+private:
 	Ingredient* dough;
 	Ingredient* sauce;
 	Ingredient* cheese;
@@ -22,21 +24,27 @@ protected:
 	std::vector<Ingredient*> veggies;
 
 public:
-	Pizza() {   }							// must override this in the subclass
+	Pizza()
+	{
+		
+	}							// must override this in the subclass
+
 	virtual ~Pizza()
 	{
-		for (std::vector<Ingredient*>::iterator it = this->veggies.begin(); it != this->veggies.end(); ++it)
-		{
-			delete *it;
-		}
 
-		this->veggies.erase(this->veggies.begin(), this->veggies.end());
+	}
 
-		delete this->dough;
-		delete this->sauce;
-		delete this->cheese;
-		delete this->pepperoni;
-		delete this->clams;
+	virtual void setupIngredients(PizzaIngredientFactory *arg_ingredientFactory)
+	{
+		this->dough = arg_ingredientFactory->createDough();
+		this->sauce = arg_ingredientFactory->createSauce();
+		this->cheese = arg_ingredientFactory->createCheese();
+		this->veggies = arg_ingredientFactory->createVeggies();
+	}
+
+	virtual void setName()
+	{
+
 	}
 
 	virtual std::string getName()
@@ -46,6 +54,7 @@ public:
 
 	virtual std::string getDough()
 	{
+		
 		return this->dough->toString();
 	}
 
@@ -54,23 +63,36 @@ public:
 		return this->sauce->toString();
 	}
 
+	virtual std::string getCheese()
+	{
+		
+		return this->cheese->toString();
+	}
+
+	virtual std::vector<Ingredient*> getVeggies()
+	{
+		return this->veggies;
+	}
+
 	virtual void prepare()
 	{
-		std::cout << "Preparing " << this->getName() << " with " << this->getDough() << " and " << this->getSauce() << ",\ntopped with";
-		if (this->veggies.empty() != true)
+		const std::vector<Ingredient*> vegToppings = getVeggies();
+
+		std::cout << "Preparing " << this->getName() << " with " << this->getDough() << " and " << this->getSauce() << " covered in " << this->getCheese() << ",\ntopped with";
+		if (vegToppings.empty() != true && this->pizzaType != "Cheese")
 		{
-			for (std::vector<Ingredient*>::iterator it = this->veggies.begin(); it != this->veggies.end(); ++it)
+			for (std::vector<Ingredient*>::const_iterator it = vegToppings.begin(); it != vegToppings.end(); ++it)
 			{
 				//	Cast 'Ingredient*' to the dereferenced iterator, so we can call the 'toString()' method
 				std::cout << " " << ((Ingredient*)*it)->toString();
 
 				//	Get the next iterator so long as it's not the last element or the second last element (ie, -1 from the end)
-				if (std::next(it) != this->veggies.end() && std::next(it) != this->veggies.end() - 1)
+				if (std::next(it) != vegToppings.end() && std::next(it) != vegToppings.end() - 1)
 				{
 					std::cout << ", ";
 				}
 				//	If it is the second last element, print out ", and" after having printed the second last element
-				if (std::next(it) == this->veggies.end() - 1)
+				if (std::next(it) == vegToppings.end() - 1)
 				{
 					std::cout << ", and ";
 				}

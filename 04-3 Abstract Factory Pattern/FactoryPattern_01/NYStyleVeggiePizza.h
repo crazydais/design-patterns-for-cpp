@@ -7,5 +7,6 @@ class NYStyleVeggiePizza : public Pizza
 public:
 	NYStyleVeggiePizza(PizzaIngredientFactory*);
 	~NYStyleVeggiePizza();
+	void setName();
 	void cut();
 };

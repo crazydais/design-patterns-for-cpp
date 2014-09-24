@@ -2,20 +2,20 @@
 
 NYStyleCheesePizza::NYStyleCheesePizza(PizzaIngredientFactory *arg_ingredientFactory)
 {
-	this->name = "NY Style Cheese Pizza";
-
-	this->dough = arg_ingredientFactory->createDough();
-	this->sauce = arg_ingredientFactory->createSauce();
-	this->cheese = arg_ingredientFactory->createCheese();
-
-	std::cout << "Creating " << this->getName() << std::endl;
+	this->setName();
+	this->name = "NY Style " + this->pizzaType + " Pizza";
+	this->setupIngredients(arg_ingredientFactory);
 }
 
 NYStyleCheesePizza::~NYStyleCheesePizza()
 {
-	delete this->dough;
-	delete this->sauce;
-	delete this->cheese;
+
 }
+
+void NYStyleCheesePizza::setName()
+{
+	this->pizzaType = "Cheese";
+}
+
 
 

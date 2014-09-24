@@ -8,4 +8,5 @@ class NYStyleClamPizza : public Pizza
 public:
 	NYStyleClamPizza(PizzaIngredientFactory*);
 	~NYStyleClamPizza();
+	void setName();
 };

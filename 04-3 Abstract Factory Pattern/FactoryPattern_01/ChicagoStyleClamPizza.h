@@ -8,5 +8,6 @@ class ChicagoStyleClamPizza : public Pizza
 public:
 	ChicagoStyleClamPizza(PizzaIngredientFactory*);
 	~ChicagoStyleClamPizza();
+	void setName();
 };
 
