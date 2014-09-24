@@ -9,7 +9,7 @@ NYStylePepperoniPizza::NYStylePepperoniPizza(PizzaIngredientFactory *arg_ingredi
 
 NYStylePepperoniPizza::~NYStylePepperoniPizza()
 {
-
+	delete this;
 }
 
 void NYStylePepperoniPizza::setName()

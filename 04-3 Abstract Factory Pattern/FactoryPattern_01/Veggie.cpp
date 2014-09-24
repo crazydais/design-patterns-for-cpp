@@ -7,10 +7,5 @@ Veggie::Veggie()
 
 Veggie::~Veggie()
 {
-
-}
-
-Ingredient* Veggie::createIngredient()
-{
-	return new Veggie();
+	delete this;
 }

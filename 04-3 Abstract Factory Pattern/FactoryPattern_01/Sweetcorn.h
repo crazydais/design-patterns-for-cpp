@@ -6,7 +6,5 @@ class Sweetcorn :
 public:
 	Sweetcorn();
 	~Sweetcorn();
-
-	Ingredient* createIngredient();
 };
 

@@ -9,9 +9,5 @@ ThickCrustDough::ThickCrustDough()
 
 ThickCrustDough::~ThickCrustDough()
 {
-}
-
-Ingredient* ThickCrustDough::createIngredient()
-{
-	return new ThickCrustDough();
+	delete this;
 }

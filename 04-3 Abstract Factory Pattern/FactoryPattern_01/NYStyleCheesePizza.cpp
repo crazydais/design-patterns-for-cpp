@@ -9,7 +9,7 @@ NYStyleCheesePizza::NYStyleCheesePizza(PizzaIngredientFactory *arg_ingredientFac
 
 NYStyleCheesePizza::~NYStyleCheesePizza()
 {
-
+	delete this;
 }
 
 void NYStyleCheesePizza::setName()

@@ -22,7 +22,5 @@ public:
 	{
 		return this->name;
 	}
-
-	virtual Ingredient* createIngredient() = 0;
 };
 

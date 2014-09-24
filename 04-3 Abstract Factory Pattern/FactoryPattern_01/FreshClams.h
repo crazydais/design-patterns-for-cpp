@@ -7,7 +7,5 @@ class FreshClams : public Ingredient
 public:
 	FreshClams();
 	~FreshClams();
-
-	Ingredient* createIngredient();
 };
 

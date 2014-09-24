@@ -9,9 +9,5 @@ Mushroom::Mushroom()
 
 Mushroom::~Mushroom()
 {
-}
-
-Ingredient* Mushroom::createIngredient()
-{
-	return new Mushroom();
+	delete this;
 }

@@ -9,9 +9,5 @@ Peppers::Peppers()
 
 Peppers::~Peppers()
 {
-}
-
-Ingredient* Peppers::createIngredient()
-{
-	return new Peppers();
+	delete this;
 }

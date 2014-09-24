@@ -9,9 +9,5 @@ Sweetcorn::Sweetcorn()
 
 Sweetcorn::~Sweetcorn()
 {
-}
-
-Ingredient* Sweetcorn::createIngredient()
-{
-	return new Sweetcorn();
+	delete this;
 }

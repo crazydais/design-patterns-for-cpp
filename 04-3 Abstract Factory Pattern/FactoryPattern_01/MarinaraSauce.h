@@ -7,7 +7,5 @@ class MarinaraSauce : public Ingredient
 public:
 	MarinaraSauce();
 	~MarinaraSauce();
-
-	Ingredient* createIngredient();
 };
 

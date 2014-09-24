@@ -7,6 +7,4 @@ class ThinCrustDough : public Ingredient
 public:
 	ThinCrustDough();
 	~ThinCrustDough();
-
-	Ingredient* createIngredient();
 };

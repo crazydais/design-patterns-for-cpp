@@ -9,10 +9,6 @@ PlumTomatoSauce::PlumTomatoSauce()
 
 PlumTomatoSauce::~PlumTomatoSauce()
 {
-}
-
-Ingredient* PlumTomatoSauce::createIngredient()
-{
-	return new PlumTomatoSauce();
+	delete this;
 }
 

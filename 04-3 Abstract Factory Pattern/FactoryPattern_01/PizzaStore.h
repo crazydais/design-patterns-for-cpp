@@ -20,9 +20,9 @@ public:
 
 	virtual Pizza* createPizza(std::string) = 0;
 
-	virtual Pizza* orderPizza(std::string arg_pizzaTyp) final
+	virtual Pizza* orderPizza(std::string arg_pizzaType) final
 	{
-		Pizza *pizza = this->createPizza(arg_pizzaTyp);
+		Pizza *pizza = this->createPizza(arg_pizzaType);
 		pizza->prepare();
 		pizza->bake();
 		pizza->cut();

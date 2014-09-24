@@ -7,7 +7,5 @@ class Onion : public Ingredient
 public:
 	Onion();
 	~Onion();
-
-	Ingredient* createIngredient();
 };
 

@@ -11,7 +11,7 @@ ChicagoStyleClamPizza::ChicagoStyleClamPizza(PizzaIngredientFactory *arg_ingredi
 
 ChicagoStyleClamPizza::~ChicagoStyleClamPizza()
 {
-
+	delete this;
 }
 
 void ChicagoStyleClamPizza::setName()

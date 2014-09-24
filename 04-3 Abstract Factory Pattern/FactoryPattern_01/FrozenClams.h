@@ -7,7 +7,5 @@ class FrozenClams : public Ingredient
 public:
 	FrozenClams();
 	~FrozenClams();
-
-	Ingredient* createIngredient();
 };
 

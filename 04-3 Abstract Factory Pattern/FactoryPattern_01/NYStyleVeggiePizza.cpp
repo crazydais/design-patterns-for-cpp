@@ -9,7 +9,7 @@ NYStyleVeggiePizza::NYStyleVeggiePizza(PizzaIngredientFactory* arg_ingredientFac
 
 NYStyleVeggiePizza::~NYStyleVeggiePizza()
 {
-	std::cout << "Destroying " << this->getName() << std::endl;
+	delete this;
 }
 
 void NYStyleVeggiePizza::setName()

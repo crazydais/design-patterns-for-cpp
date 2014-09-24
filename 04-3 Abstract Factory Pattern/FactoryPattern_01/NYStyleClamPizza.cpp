@@ -9,7 +9,7 @@ NYStyleClamPizza::NYStyleClamPizza(PizzaIngredientFactory *arg_ingredientFactory
 
 NYStyleClamPizza::~NYStyleClamPizza()
 {
-
+	delete this;
 }
 
 void NYStyleClamPizza::setName()

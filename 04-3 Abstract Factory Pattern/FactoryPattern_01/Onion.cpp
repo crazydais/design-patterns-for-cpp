@@ -9,9 +9,5 @@ Onion::Onion()
 
 Onion::~Onion()
 {
-}
-
-Ingredient* Onion::createIngredient()
-{
-	return new Onion();
+	delete this;
 }

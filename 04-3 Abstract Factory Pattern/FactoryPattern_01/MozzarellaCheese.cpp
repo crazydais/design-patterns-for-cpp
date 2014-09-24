@@ -9,9 +9,5 @@ MozzarellaCheese::MozzarellaCheese()
 
 MozzarellaCheese::~MozzarellaCheese()
 {
-}
-
-Ingredient* MozzarellaCheese::createIngredient()
-{
-	return new MozzarellaCheese();
+	delete this;
 }

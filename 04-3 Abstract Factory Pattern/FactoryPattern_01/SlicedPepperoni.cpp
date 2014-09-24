@@ -9,9 +9,5 @@ SlicedPepperoni::SlicedPepperoni()
 
 SlicedPepperoni::~SlicedPepperoni()
 {
-}
-
-Ingredient* SlicedPepperoni::createIngredient()
-{
-	return new SlicedPepperoni();
+	delete this;
 }

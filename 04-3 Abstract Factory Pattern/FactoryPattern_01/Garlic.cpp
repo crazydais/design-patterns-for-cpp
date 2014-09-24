@@ -8,9 +8,5 @@ Garlic::Garlic()
 
 Garlic::~Garlic()
 {
-}
-
-Ingredient* Garlic::createIngredient()
-{
-	return new Garlic();
+	delete this;
 }

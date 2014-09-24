@@ -7,7 +7,5 @@ class Peppers : public Ingredient
 public:
 	Peppers();
 	~Peppers();
-
-	Ingredient* createIngredient();
 };
 

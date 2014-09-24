@@ -10,7 +10,7 @@ ChicagoStyleCheesePizza::ChicagoStyleCheesePizza(PizzaIngredientFactory *arg_ing
 
 ChicagoStyleCheesePizza::~ChicagoStyleCheesePizza()
 {
-
+	delete this;
 }
 
 void ChicagoStyleCheesePizza::setName()

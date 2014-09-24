@@ -7,7 +7,5 @@ class SlicedPepperoni : public Ingredient
 public:
 	SlicedPepperoni();
 	~SlicedPepperoni();
-
-	Ingredient* createIngredient();
 };
 

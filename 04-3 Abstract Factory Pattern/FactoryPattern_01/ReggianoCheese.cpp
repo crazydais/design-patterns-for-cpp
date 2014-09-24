@@ -9,9 +9,5 @@ ReggianoCheese::ReggianoCheese()
 
 ReggianoCheese::~ReggianoCheese()
 {
-}
-
-Ingredient* ReggianoCheese::createIngredient()
-{
-	return new ReggianoCheese();
+	delete this;
 }

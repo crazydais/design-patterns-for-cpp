@@ -8,9 +8,5 @@ FreshClams::FreshClams()
 
 FreshClams::~FreshClams()
 {
-}
-
-Ingredient* FreshClams::createIngredient()
-{
-	return new FreshClams();
+	delete this;
 }

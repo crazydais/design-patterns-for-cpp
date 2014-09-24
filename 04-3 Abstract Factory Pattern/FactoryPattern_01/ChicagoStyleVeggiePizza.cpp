@@ -11,7 +11,7 @@ ChicagoStyleVeggiePizza::ChicagoStyleVeggiePizza(PizzaIngredientFactory* arg_ing
 
 ChicagoStyleVeggiePizza::~ChicagoStyleVeggiePizza()
 {
-
+	delete this;
 }
 
 void ChicagoStyleVeggiePizza::setName()

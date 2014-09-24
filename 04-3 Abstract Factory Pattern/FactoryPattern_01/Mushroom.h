@@ -7,7 +7,5 @@ class Mushroom : public Ingredient
 public:
 	Mushroom();
 	~Mushroom();
-
-	Ingredient* createIngredient();
 };
 

@@ -9,9 +9,5 @@ FrozenClams::FrozenClams()
 
 FrozenClams::~FrozenClams()
 {
-}
-
-Ingredient* FrozenClams::createIngredient()
-{
-	return new FrozenClams();
+	delete this;
 }

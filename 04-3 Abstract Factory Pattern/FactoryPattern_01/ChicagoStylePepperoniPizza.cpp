@@ -10,7 +10,7 @@ ChicagoStylePepperoniPizza::ChicagoStylePepperoniPizza(PizzaIngredientFactory* a
 
 ChicagoStylePepperoniPizza::~ChicagoStylePepperoniPizza()
 {
-
+	delete this;
 }
 
 void ChicagoStylePepperoniPizza::setName()

@@ -7,7 +7,5 @@ class Garlic : 	public Ingredient
 public:
 	Garlic();
 	~Garlic();
-
-	Ingredient* createIngredient();
 };
 

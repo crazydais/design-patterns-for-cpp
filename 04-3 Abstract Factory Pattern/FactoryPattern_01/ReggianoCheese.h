@@ -7,7 +7,5 @@ class ReggianoCheese : public Ingredient
 public:
 	ReggianoCheese();
 	~ReggianoCheese();
-
-	Ingredient* createIngredient();
 };
 

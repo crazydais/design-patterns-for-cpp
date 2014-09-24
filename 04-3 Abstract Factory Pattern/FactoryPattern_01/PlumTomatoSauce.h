@@ -7,7 +7,5 @@ class PlumTomatoSauce : public Ingredient
 public:
 	PlumTomatoSauce();
 	~PlumTomatoSauce();
-
-	Ingredient* createIngredient();
 };
 

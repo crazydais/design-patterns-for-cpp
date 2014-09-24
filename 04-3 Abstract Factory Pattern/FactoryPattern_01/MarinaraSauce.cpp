@@ -9,9 +9,5 @@ MarinaraSauce::MarinaraSauce()
 
 MarinaraSauce::~MarinaraSauce()
 {
-}
-
-Ingredient* MarinaraSauce::createIngredient()
-{
-	return new MarinaraSauce();
+	delete this;
 }

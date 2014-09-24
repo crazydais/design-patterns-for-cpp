@@ -41,6 +41,7 @@ public:
 		this->veggies.erase(this->veggies.begin(), this->veggies.end());
 	}
 
+	//	Create a family of ingredients
 	virtual Ingredient* createDough() = 0;
 	virtual Ingredient* createSauce() = 0;
 	virtual Ingredient* createCheese() = 0;

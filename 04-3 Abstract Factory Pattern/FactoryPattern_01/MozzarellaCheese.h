@@ -7,7 +7,5 @@ class MozzarellaCheese : public Ingredient
 public:
 	MozzarellaCheese();
 	~MozzarellaCheese();
-
-	Ingredient* createIngredient();
 };
 

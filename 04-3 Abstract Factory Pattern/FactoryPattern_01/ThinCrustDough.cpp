@@ -7,10 +7,5 @@ ThinCrustDough::ThinCrustDough()
 
 ThinCrustDough::~ThinCrustDough()
 {
-
-}
-
-Ingredient* ThinCrustDough::createIngredient()
-{
-	return new ThinCrustDough();
+	delete this;
 }
