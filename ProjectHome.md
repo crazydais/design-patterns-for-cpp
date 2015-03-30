@@ -1,0 +1,1 @@
+Design patterns from Head First written in c++
